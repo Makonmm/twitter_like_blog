@@ -1,6 +1,6 @@
 from pathlib import Path
-from dotenv import load_dotenv
 import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,9 +15,8 @@ SECRET_KEY = 'django-insecure-0d&@&#$+iplcor#dzu50(oe3d#e$bakyoe@5!ydmteqk%&%w9l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-load_dotenv()
 
-ALLOWED_HOSTS = ['.vercel.app', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -69,11 +68,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'blogdata',
-        'USER': 'mathe',
-        'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': 'localhost',  # Ou o endereço do seu banco de dados
-        'PORT': '5432',       # Ou a porta do seu banco de dados
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'dagTZmYvXIVKNfskHgHliyTygrDiLZAd',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '16878',
     }
 }
 
@@ -112,7 +111,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
