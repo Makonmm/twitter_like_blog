@@ -5,4 +5,4 @@ This project is a blog inspired in twitter
 We can:
 
 - Post
-- Delete/edit/search/register/login/logOff
+- Delete/edit/search/register/LOGIN/LOGOFF
