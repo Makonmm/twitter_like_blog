@@ -1,3 +1,37 @@
+# Bookstore project
+
+Twiiter like project APP from Backend Python course from EBAC
+
+## Prerequisites
+
+```
+Python 3.5>
+
+```
+
+## Quickstart
+
+1. Clone this project
+
+   ```shell
+   git clone git@github.com:Makonmm/book_store.git
+   ```
+
+2. Install dependencies:
+
+   ```shell
+   cd twitter_like_blog
+   pip install -r requirements
+   ```
+
+3. Run local dev server:
+
+   ```shell
+   python manage.py migrate
+   python manage.py runserver
+   ``` 
+
+
 Project created to practice django features
 
 This project is a blog inspired in twitter
