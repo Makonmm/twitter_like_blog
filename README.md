@@ -14,7 +14,7 @@ Python 3.5>
 1. Clone this project
 
    ```shell
-   git clone git@github.com:Makonmm/book_store.git
+   git clone https://github.com/Makonmm/twitter_like_blog.git
    ```
 
 2. Install dependencies:
