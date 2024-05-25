@@ -1,6 +1,6 @@
-# Bookstore project
+# Twitter like blog project
 
-Twiiter like project APP from Backend Python course from EBAC
+Blog project inspired in twitter architecture from Backend Python course from EBAC
 
 ## Prerequisites
 
